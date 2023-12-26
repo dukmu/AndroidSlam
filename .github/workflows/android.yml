@@ -3,14 +3,12 @@ name: Build and Release
 on:
  push:
    branches:
-     - master
-     - "feature/*"
+     - dumu-patch-1
    tags:
      - "v*.*.*"
  pull_request:
    branches:
-     - master
-     - "feature/*"
+     - dumu-patch-1
 
 jobs:
  apk:
